@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="334.0" prefWidth="524.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.gayum.controller.UiLoadingSceneController">
+   <children>
+      <ImageView fitHeight="282.0" fitWidth="502.0" layoutX="66.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="42.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="10.0" />
+      <ProgressBar layoutX="61.0" layoutY="294.0" prefWidth="200.0" progress="0.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
+      <Label layoutX="428.0" layoutY="284.0" text="Loading UI..." />
+   </children>
+</AnchorPane>
