@@ -22,7 +22,6 @@ public class AppInitializer extends Application {
         AnchorPane root = FXMLLoader.load(getClass().getResource("/view/UiLoadingScene.fxml"));
         Scene uiLoadScene = new Scene(root);
         primaryStage.setScene(uiLoadScene);
-
         primaryStage.initStyle(StageStyle.UNDECORATED);
         root.setBackground(Background.fill(Color.TRANSPARENT));
         uiLoadScene.setFill(Color.TRANSPARENT);

@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-
-<AnchorPane prefHeight="334.0" prefWidth="524.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.gayum.controller.UiLoadingSceneController">
+<AnchorPane fx:id="root" prefHeight="302.0" prefWidth="524.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.gayum.controller.UiLoadingSceneController">
    <children>
-      <ImageView fitHeight="282.0" fitWidth="502.0" layoutX="66.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="42.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="10.0" />
-      <ProgressBar layoutX="61.0" layoutY="294.0" prefWidth="200.0" progress="0.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" />
-      <Label layoutX="428.0" layoutY="284.0" text="Loading UI..." />
+      <ImageView fitHeight="324.0" fitWidth="613.0" layoutX="-36.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="-22.0" AnchorPane.leftAnchor="-36.0" AnchorPane.rightAnchor="-53.0" AnchorPane.topAnchor="0.0">
+         <image>
+            <Image url="@../asset/img/spashBackground.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="258.0" fitWidth="316.0" layoutX="123.0" layoutY="-48.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/img/logo.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="lblLoadingUI" alignment="CENTER" layoutX="192.0" layoutY="242.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0">
+         <font>
+            <Font name="Ubuntu Bold" size="24.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
