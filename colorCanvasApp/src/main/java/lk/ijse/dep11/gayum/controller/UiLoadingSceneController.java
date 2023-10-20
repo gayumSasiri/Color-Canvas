@@ -19,7 +19,6 @@ public class UiLoadingSceneController {
     public AnchorPane root;
 
     public void initialize(){
-
         KeyFrame keyFrame1 = new KeyFrame(Duration.millis(1000),actionEvent -> {
             lblLoadingUI.setText("Application is being initialized...");
         });
@@ -35,7 +34,10 @@ public class UiLoadingSceneController {
                 Scene scene = new Scene(rootUi);
                 Stage stage = new Stage();
                 stage.setScene(scene);
+                stage.setTitle("ColorCanvas V 1.0.0");
+                stage.setResizable(false);
                 stage.show();
+                stage.centerOnScreen();
                 Stage primaryStage = (Stage)root.getScene().getWindow();
                 primaryStage.close();
 

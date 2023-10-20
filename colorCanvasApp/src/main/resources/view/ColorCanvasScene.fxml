@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSlider?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="lk.ijse.dep11.gayum.controller.ColorCanvasSceneController"
-            prefHeight="400.0" prefWidth="600.0">
-
+<AnchorPane prefHeight="576.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.dep11.gayum.controller.ColorCanvasSceneController">
+   <children>
+      <ImageView fitHeight="626.0" fitWidth="912.0" layoutX="-21.0" layoutY="-22.0" pickOnBounds="true" AnchorPane.bottomAnchor="-28.0" AnchorPane.leftAnchor="-21.0" AnchorPane.rightAnchor="-21.0" AnchorPane.topAnchor="-22.0">
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <image>
+            <Image url="@../asset/img/app-background.jpg" />
+         </image>
+      </ImageView>
+      <JFXSlider fx:id="slrRed" blockIncrement="1.0" layoutX="119.0" layoutY="122.0" max="255.0" prefHeight="34.0" prefWidth="539.0" />
+      <Label layoutX="36.0" layoutY="125.0" text="RED">
+         <font>
+            <Font name="Ubuntu" size="23.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="111.0" fitWidth="155.0" layoutX="358.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../asset/img/logo.png" />
+         </image>
+      </ImageView>
+      <JFXSlider fx:id="slrGreen" layoutX="119.0" layoutY="170.0" max="255.0" prefHeight="34.0" prefWidth="539.0" />
+      <Label layoutX="36.0" layoutY="173.0" text="GREEN">
+         <font>
+            <Font name="Ubuntu" size="23.0" />
+         </font>
+      </Label>
+      <JFXSlider fx:id="slrBlue" layoutX="119.0" layoutY="218.0" max="255.0" prefHeight="34.0" prefWidth="539.0" />
+      <Label layoutX="36.0" layoutY="221.0" text="BLUE">
+         <font>
+            <Font name="Ubuntu" size="23.0" />
+         </font>
+      </Label>
+      <Rectangle fx:id="shpPreview" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="200.0" layoutX="314.0" layoutY="318.0" stroke="BLACK" strokeType="INSIDE" width="200.0" />
+      <JFXButton fx:id="btnCopyMe" layoutX="539.0" layoutY="538.0" onAction="#btnCopyMeOnAction" text="COPY ME" textAlignment="CENTER" />
+      <JFXSlider fx:id="slrAlpha" layoutX="119.0" layoutY="264.0" max="255.0" prefHeight="34.0" prefWidth="539.0" />
+      <Label layoutX="36.0" layoutY="267.0" text="ALPHA">
+         <font>
+            <Font name="Ubuntu" size="23.0" />
+         </font>
+      </Label>
+      <JFXTextField fx:id="txtRed" alignment="CENTER" editable="false" layoutX="701.0" layoutY="127.0" />
+      <JFXTextField fx:id="txtGreen" alignment="CENTER" editable="false" layoutX="701.0" layoutY="175.0" />
+      <JFXTextField fx:id="txtBlue" alignment="CENTER" editable="false" layoutX="701.0" layoutY="223.0" />
+      <JFXTextField fx:id="txtAlpha" alignment="CENTER" editable="false" layoutX="701.0" layoutY="269.0" />
+      <JFXTextField fx:id="txtColorCode" alignment="CENTER" editable="false" layoutX="314.0" layoutY="538.0" prefHeight="24.0" prefWidth="200.0" />
+   </children>
 </AnchorPane>
