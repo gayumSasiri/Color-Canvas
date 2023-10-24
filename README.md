@@ -7,15 +7,9 @@ ColorCanvas App is a user-friendly application that allows you to select and man
 
 - **Color Selection**: Easily pick colors from a color palette or use the color wheel to choose custom colors.
 
-- **Color Codes**: Get color codes in various formats, including HEX, RGB, and HSL.
+- **Color Codes**: Get color codes in RGB format.
 
-- **Color History**: Keep track of your recently selected colors for quick access.
-
-- **Color Management**: Organize your favorite colors and save them for future use.
-
-- **Color Palettes**: Create and save custom color palettes for your projects.
-
-- **Color Contrast Checker**: Check the contrast between two colors for accessibility.
+- **Color Palettes**: Create custom color palettes for your projects.
 
 ## Usage
 
@@ -23,7 +17,15 @@ ColorCanvas App is a user-friendly application that allows you to select and man
 
 2. **Color Palettes**: Create custom color palettes for your projects. Add, edit, or remove colors in your palettes.
 
+## Installation
 
+To use the ColorCanvas App, follow these steps:
+
+1. Download the latest release from the [Releases](https://github.com/yourusername/color-picker-app/releases) section.
+
+2. Install the application on your device.
+
+3. Launch the app and start picking and managing your colors.
 
 ### Version 1.0.0
 
