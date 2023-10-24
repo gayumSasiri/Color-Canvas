@@ -21,7 +21,7 @@ ColorCanvas App is a user-friendly application that allows you to select and man
 
 To use the ColorCanvas App, follow these steps:
 
-1. Download the latest release from the [Releases](https://github.com/yourusername/color-picker-app/releases) section.
+1. Download the latest release from the [Releases](https://github.com/gayumSasiri/Color-Canvas.git) section.
 
 2. Install the application on your device.
 
